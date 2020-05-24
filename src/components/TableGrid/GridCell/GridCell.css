@@ -1,0 +1,9 @@
+.child {
+  border: 0.5px solid #000;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.alive {
+  background: #000;
+}

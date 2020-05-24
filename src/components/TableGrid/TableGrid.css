@@ -1,0 +1,10 @@
+.parent {
+  width: 700px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(50, 15px);
+  grid-template-rows: repeat(50, 15px);
+  grid-auto-flow: column;
+  margin: 50px auto auto auto;
+}
+
