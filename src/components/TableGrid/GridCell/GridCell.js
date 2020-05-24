@@ -1,10 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './GridCell.css';
 const GridCell = ({ lifeStatus }) => {
-  return (
-    <div className={`child ${lifeStatus ? 'alive' : ''}`}>
-    </div>
-  );
+  return <div className={`child ${lifeStatus ? 'alive' : ''}`}></div>;
 };
 
 export default GridCell;

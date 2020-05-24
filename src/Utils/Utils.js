@@ -7,7 +7,7 @@ export const buildGrid = (gridSize) => {
   for (let i = 0; i < gridSize; i++) {
     newGrid[i] = [];
     for (let j = 0; j < gridSize; j++) {
-      newGrid[i][j] = <GridCell lifeStatus={generateRandomLife()} />;
+      newGrid[i][j] = <GridCell lifeStatus={generateRandomLife()}   key={`${i}${j}`}/>;
     }
   }
   return newGrid;
